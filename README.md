@@ -1,5 +1,5 @@
 
-# Task 
+## Task 
 
 Build a program that accepts two inputs:
 
@@ -7,22 +7,23 @@ Build a program that accepts two inputs:
 - A location to filter by
 
 The program should then filter the array of supplied talent, and output the names of talent whose location matches the location supplied. The supplied location should be consider case-insensitive, and the order in which names are outputted is not important.
-## Technologies
+
+#### Technologies
 
 - Ruby
 
-## Time Spent 
+#### Time Spent 
 
 - 3 hours
 
-# How to run the program
+## How to run the program
 
 Clone the project locally
 ```
 https://github.com/Charlotte-91/contact-tech-test.git
 ```
 
-## To run the program
+#### To run the program
 
 (Please replace 'location' with location required(eg; Springfield))
 
@@ -35,7 +36,7 @@ https://github.com/Charlotte-91/contact-tech-test.git
 > json = JSON.parse(File.read('talent.JSON'))
 > filter(json, location)
 ```
-## To run the tests 
+#### To run the tests 
 
 ```
 > rspec
